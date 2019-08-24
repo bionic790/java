@@ -1,0 +1,30 @@
+import java.util.*;
+class area
+{
+public int length;
+public int breadth;
+
+public void read_data(int x,int y)
+{
+Scanner s=new Scanner(System.in);
+length=x;
+breadth=y;
+System.out.println("x="+x);
+System.out.println("y="+y);
+}
+
+public void display_area()
+{
+System.out.println(x*y);
+}
+}
+
+class A_Demo
+{
+public static void main(String args[])
+{
+area b1=new area();
+b1.read_data(2,3);b1.display_area();
+}
+}
+ 

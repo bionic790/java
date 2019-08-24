@@ -1,0 +1,43 @@
+
+import java.util.*
+class student
+{
+public int marks ;
+public void student_details()
+{
+ int i;
+string name;
+string usn;
+Scanner s=new Scanner(System.in);
+System.out.println("enter student name");
+ name=s.nextLine();
+System.out.println("enter usn");
+ usn=s.nextLine();          
+for(i=0;i<3;i++)
+{
+System.out.println("enter marks of subject"+(i+1)+":");
+marks[i]=s.nextInt();
+System.out.printlnt("credits");
+credits[i]=s.nextInt();
+}
+}
+public int calculation()
+{
+float cgpa;
+int grade_points-0;
+int total_credits=0;
+int total grade_points=0;
+for(i=0;i<5;i++)
+  {
+   if(marks[i[>=90)
+     grade_points=10;
+   else if(marks[i]>=75 && marks[i]<90)
+     grade_points=9;
+   else if(marks[i]>=60 && marks[i]<75)
+     grade_points=8;
+   else if(marks[i]>=50 && marks[i]<60)
+     grade_points=7;
+   else if(marks[i]>=41 && marks[i]<50)
+     grade_points=6;
+
+       
